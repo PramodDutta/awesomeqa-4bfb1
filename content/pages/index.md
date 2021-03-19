@@ -2,7 +2,7 @@
 title: Home
 has_intro: true
 intro_content: |
-  Helping your to become Better QA / Software Tester.
+  Helping You Become Better QA / Software Tester.
 intro_actions:
   - label: Learn More
     url: /about
