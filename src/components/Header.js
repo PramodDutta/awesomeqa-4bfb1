@@ -13,8 +13,7 @@ export default class Header extends React.Component {
                   <div className="site-branding">
                     {_.get(this.props, 'data.config.header.logo_img', null) && (
                     <p className="site-logo">
-                      <Link href={withPrefix('/')}><img src={withPrefix(_.get(this.props, 'data.config.header.logo_img', null))}
-                        alt={_.get(this.props, 'data.config.header.logo_img_alt', null)} /></Link>
+                      Awesome{QA}
                     </p>
                     )}
                     {(_.get(this.props, 'page.frontmatter.layout', null) === 'home') ? (
